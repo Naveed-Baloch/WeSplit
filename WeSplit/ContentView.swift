@@ -9,15 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Form{
-            
-            Text("Form Exmaple")
-            
-            Section{
-                Text("Naveed Form is here")
-                Text("Naveed Form is here")
-                Text("Naveed Form is here")
+        NavigationStack {
+            Form{
+                
+                Text("Form Exmaple")
+                
+                Section{
+                    Text("Naveed Form is here")
+                    Text("Naveed Form is here")
+                    Text("Naveed Form is here")
+                }
             }
+            .navigationTitle("We Split")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
