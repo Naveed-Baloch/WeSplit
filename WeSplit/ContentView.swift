@@ -8,21 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var count: Int = 0
     var body: some View {
-        NavigationStack {
-            Form{
-                
-                Text("Form Exmaple")
-                
-                Section{
-                    Text("Naveed Form is here")
-                    Text("Naveed Form is here")
-                    Text("Naveed Form is here")
-                }
+            Button("Tap \(count)"){
+                count += 1
             }
-            .navigationTitle("We Split")
-            .navigationBarTitleDisplayMode(.inline)
-        }
     }
 }
 
