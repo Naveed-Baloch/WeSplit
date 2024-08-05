@@ -8,11 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var count: Int = 0
+    @State private var email = ""
+    @State private var password = ""
+    @State private var showError = ""
     var body: some View {
-            Button("Tap \(count)"){
-                count += 1
+        NavigationStack{
+            Form{
+                
+                Section {
+                    Text("Email")
+                    TextField("enter email here!", text: $email)
+                    Text("Password")
+                    TextField("enter password here!", text: $password)
+                    
+                    if(!showError.isEmpty){
+                        Text(showError)
+                    }
+                }
+                
+                Button("Login") {
+                    if(email.isEmpty){
+                        showError = "Pleae Enter Email"
+                    } else {
+                        showError = ""
+                    }
+                
+                }
+
             }
+            .navigationTitle("User Login")
+        
+        }
     }
 }
 
