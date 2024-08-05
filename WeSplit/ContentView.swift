@@ -10,7 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Form{
-            Text("Naveed Form is here")
+            
+            Text("Form Exmaple")
+            
+            Section{
+                Text("Naveed Form is here")
+                Text("Naveed Form is here")
+                Text("Naveed Form is here")
+            }
         }
     }
 }
