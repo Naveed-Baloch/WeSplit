@@ -9,8 +9,13 @@ WeSplit is a simple check-splitting app built as part of the "Hacking with Swift
 - View the amount each person needs to pay.
 
 ## Screenshots
+| Default Home Screen | Result Screen |
+| :-: | :-:|
+| <img src="https://github.com/user-attachments/assets/58c2da4a-644e-4305-82c5-8735870f0002" width="400"/> | <img src="https://github.com/user-attachments/assets/c10891b4-4351-4e6e-9520-0ea9fe147757" width="400" /> |
 
-(Will be Added Soon)
+| Tip Percentage Selection Screen| Number of People Selection Screen |
+| :-: | :-:|
+| <img src="https://github.com/user-attachments/assets/569786d2-cb83-4a75-8c9b-38f1a4927c33" width="400"/> | <img src="https://github.com/user-attachments/assets/16526bd1-ab57-408a-817d-71f240010874" width="400" /> |
 
 ## Requirements
 
