@@ -27,7 +27,7 @@ WeSplit is a simple check-splitting app built as part of the "Hacking with Swift
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/WeSplit.git
+    git clone https://github.com/naveed-baloch/WeSplit.git
     ```
 2. Open the project in Xcode:
     ```sh
